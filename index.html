@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="main-logo">
+          <h1><strong>Ping Pong</strong></h1>
+        </div>
+      </div>
+    </header>
+
+    <div class="wrapper">
+      <div class="container">
+        <div id="game">
+          <h2>Let's Play</h2>
+          <h3>Rules:</h3>
+          <p>Ping Pong will count up to the number you enter with the following execeptions:</p>
+          <ol>
+            <li>Numbers divisible by 3 are replaced with "Ping".</li>
+            <li>Numbers divisible by 5 are replaced with "Pong".</li>
+            <li>Numbers divisible by 15 are replaced with "PingPong".</li>
+          </ol>
+          <form>
+            <div>
+              <label for="input-number">Please enter a number:</label>
+              <input id="input-number" type="text">
+              <button type="submit" id="submit-button" class="btn-primary">Go!</button>
+            </div>
+          </form>
+        </div>
+        <div id="results">
+          <h3>Here are the results:</h3>
+          <ul class="game-result">
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2016 Ping Pong by Slavik Migovich</p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+#results {
+  display: none;
+}
+
+body {
+  background-color: skyblue;
+  margin: 0;
+}
+
+header,
+.wrapper,
+footer {
+  width: 100%;
+}
+
+header {
+  background-color: #6A5ACD;
+}
+
+.main-logo {
+  padding-bottom: 10px;
+}
+
+.wrapper {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+footer {
+  color: #888;
+}
+
+footer p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
