@@ -5,6 +5,9 @@
 ####By _**Slavik Mygovych**_
 
 ##Description
+_Ping Pong Game._
+
+GitHub Pages Link: https://slav4477.github.io/ping-pong/
 
 ##Specifications
 
@@ -22,22 +25,15 @@
 
 4. It will replace all of the numbers dividable 15 with Ping Pong.
   * Example Input: 15
-  * Example Output: Ping Pong
+  * Example Output: [1,2,3,4,5,6,7,8,9,10,11,12,13,"Ping Pong"]
 
 5. It will replace all of the numbers dividable 5 with Pong.
   * Example Input: 5
-  * Example Output: Pong
+  * Example Output: [1,2,3,4,"Pong"]
 
 6. It will replace all of the numbers dividable 3 with Pong.
   * Example Input: 3
-  * Example Output: Ping
-
-7. It will print the results back to user in a list.
-  * Example Input: 5
-  * Example Output: 1,2,Ping,4,Pong.
-
-GitHub Pages Link: https://slav4477.github.io/ping-pong/
-_Ping Pong Game._
+  * Example Output: [1,2,"Ping"]
 
 ##Setup/Installation Requirements
 
